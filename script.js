@@ -17,7 +17,7 @@ in the year ${getFutureYear(years)}
 
 function sliderChange() {
     const rate = document.getElementById("rate").value;
-    document.getElementById("sliderValue").innerHTML = rate
+    document.getElementById("sliderValue").innerHTML = `${rate}%`
 }
 
 function getFutureYear(years) {
